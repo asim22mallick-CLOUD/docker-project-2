@@ -22,13 +22,27 @@ The main Docker concepts demonstrated are:
 
 ## Architecture
 
+The project demonstrates two approaches for running the same multi-container application:
+
+1. Manual Docker networking
+2. Docker Compose
+
+![Docker Project 2 Architecture](./architecture%20diagram.png)
+
+### Application Flow
+
+```text
 Browser
+   ↓
+localhost:5000
    ↓
 Flask Container
    ↓
 Docker Network
    ↓
 Redis Container
+   ↓
+Visitor Count Response
 
 ---
 
