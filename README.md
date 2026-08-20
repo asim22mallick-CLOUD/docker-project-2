@@ -27,7 +27,7 @@ The project demonstrates two approaches for running the same multi-container app
 1. Manual Docker networking
 2. Docker Compose
 
-![Docker Project 2 Architecture](./architecture%20diagram.png)
+![Docker Project 2 Architecture](./architecture-diagram.png)
 
 ### Application Flow
 
